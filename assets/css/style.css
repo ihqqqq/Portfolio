@@ -9,4 +9,71 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Inter", sans-serif;
+  background: #f3f3f3;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* common */
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header {
+  margin-top: 102px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  column-gap: 31px;
+  padding: 10px 0px 2px 0px;
+  height: 35px;
+}
+
+.header-item {
+  font-size: 2.1rem;
+  font-weight: 500;
+  letter-spacing: -0.63px;
+  line-height: 1.2;
+  color: #181717;
+}
+
+/* headline */
+.headline {
+  font-family: "DM Sans", sans-serif;
+  margin-top: 223px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headline__name {
+  width: 32%;
+  height: 129px;
+  font-size: 6rem;
+  font-weight: 500;
+  line-height: 0.97;
+  letter-spacing: -1.8px;
+}
+
+.headline__about {
+  margin-top: 64px;
+  width: 50%;
+  height: 111px;
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: #606060;
+  line-height: 1.17;
+  letter-spacing: -0.96px;
+}
+
+.headline__logo--down {
+  margin-top: 116.18px;
 }
